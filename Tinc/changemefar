@@ -1,0 +1,21 @@
+Address = changemefar
+Port = 655
+
+#Change to your IP
+Subnet = 192.168.60.0/24
+Subnet = 192.168.60.1/32
+
+# Add Your Public Key Here
+-----BEGIN RSA PUBLIC KEY-----
+MIICCgKCAgEAxcLthBnY+iwRLbrPGrOrgRD3P9C1WoTSa5pSwiEyT5HeunDb17ZW
+TfK5EWZPi4yBNAo78CqjDqEc6fPv4KO4mDSWm8IMQH6miI5+7stMKyr8s40E64Hg
+nhkiJlKl4hvoGT9eBQx8fqD272L3pHJ5grjAgFpzlzbiKsBNSi048iiWSO06Spcp
+phlD9v1ar3VaHgHke6/I7dsF4w2LNKOkMs7tsHwbKyocufWrfjEZ/W/23v9OkR3S
+p+1HaVE2ydqa9GBH1qlhqwb1opYsB/+uuT+ivdDN7Oyu5zNiNFpWGnxjvbAPyHsW
+Ldx1lVSdOSazqYOl9A6vfdrA47vhsgEi0fX++F4S1lvdGuz1jMKYn8ADkGfCZ4Ux
+pyxEvmE0eTEyAkl3Bf2SID+SvJV0VgfiZy7N9CgqTYYwDmC6X/b4+4yTSkzX+ZSw
+60V2V9ED603nz2TiGpmIaI7eYVQ28ZCAUIvaQDdE7JwxJLG8eDq59R5iCyen146r
+rBKAVyqcqtEmMGSUcBpJEwfOYbYmvQ1CnTmNHUrC33BZDzqQK0Ois9BhlS6M4aDQ
+5ziH7pSocOujjSQsXySmoLJpnvGGsIXNbRztHcwE+CzntaqtCb03AWmYpHc4xmRX
+R+CBBu0GBOTqRTpDogxtSilfrLACheuKc3u1slfdqaZl8+STdRWcth0CAwEAAQ==
+-----END RSA PUBLIC KEY-----
