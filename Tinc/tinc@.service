@@ -1,0 +1,22 @@
+[Unit]
+Description=CUSTOM Tinc net %i
+Documentation=info:tinc
+Documentation=man:tinc(8) man:tinc.conf(5)
+Documentation=http://tinc-vpn.org/docs/
+PartOf=tinc.service
+ReloadPropagatedFrom=tinc.service
+AssertPathExists=/usr/local/etc/tinc/%i/tinc.conf
+
+[Service]
+Type=simple
+EnvironmentFile=/usr/local/etc/tinc/%i/envvars-%i
+WorkingDirectory=/usr/local/etc/tinc/%i
+ExecStart=/usr/local/sbin/tincd -D $TINC_ARGS --config=/usr/local/etc/tinc/%i --logfile=/var/log/tinc/tinc-%i.log --pidfile=/run/tincd-%i.pid
+ExecReload=/usr/local/sbin/tincd -n %i -kHUP
+KillMode=mixed
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=5
+
+[Install]
+WantedBy=tinc.service
