@@ -1,0 +1,4 @@
+#!/bin/bash
+# This file closes down the tap device.
+
+ip link set $INTERFACE down
