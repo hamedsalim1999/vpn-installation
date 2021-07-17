@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+apt-get install zlib1g-dev 
+apt install libssl-dev
 
 set -eu
 
